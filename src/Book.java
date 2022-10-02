@@ -21,6 +21,10 @@ public class Book {
         return publicationYear;
     }
 
+    public void setPublicationYear(int publicationYear) {
+        this.publicationYear = publicationYear;
+    }
+
     public String toString() {
         return "Название книги - " + name + "Автор книги - "+ author + " Год публикации " + publicationYear;
     }
